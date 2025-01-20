@@ -114,3 +114,5 @@ ENV/
 
 # Datasets
 MNIST*
+
+.idea/
