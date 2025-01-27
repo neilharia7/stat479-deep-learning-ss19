@@ -115,4 +115,5 @@ ENV/
 # Datasets
 MNIST*
 
-.idea/.qodo
+.idea/
+.qodo/
