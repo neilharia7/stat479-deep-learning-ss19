@@ -1,0 +1,14 @@
+digraph {
+	p [label=p]
+	q [label=q]
+	r [label=r]
+	sum1 [label="p + q"]
+	sum2 [label="q + r"]
+	u [label="u = (p + q) * (q + r)"]
+	p -> sum1
+	q -> sum1
+	q -> sum2
+	r -> sum2
+	sum1 -> u
+	sum2 -> u
+}
